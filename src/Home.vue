@@ -11,7 +11,7 @@
           <el-col :span="18"> 
             <el-row>
               <el-col :span="24"> 
-                <h2>Developing <i>Drosophila</i> embryos and larvae</h2>
+                <h2>Developing fruit fly (<i>drosophila</i>) embryos and larvae</h2>
               </el-col>
             </el-row>
             <el-row>
@@ -39,7 +39,7 @@
                             <el-collapse-item   title="Summary" name="2">
                               <div class='tutorial'>
                                   <p>
-                                  sample&#58; 14h-16h embryo of <i>drosophila</i><br>
+                                  sample&#58; 14h-16h embryo of fruit fly (<i>drosophila</i>)<br>
                                   number of slices&#58; 13<br>
                                   number of bins&#58; 15,295<br>
                                   number of genes&#58; 13,668<br>
@@ -76,7 +76,7 @@
                             <el-collapse-item   title="Summary" name="2">
                               <div class='tutorial'>
                                   <p>
-                                  sample&#58; 16h-18h embryo of <i>drosophila</i><br>
+                                  sample&#58; 16h-18h embryo of fruit fly (<i>drosophila</i>)<br>
                                   number of slices&#58; 11<br>
                                   number of bins&#58; 14,634<br>
                                   number of genes&#58; 12,850<br>
@@ -113,7 +113,7 @@
                             <el-collapse-item   title="Summary" name="2">
                               <div class='tutorial'>
                                   <p>
-                                  sample&#58; L1 larva of <i>drosophila</i><br>
+                                  sample&#58; L1 larva of fruit fly (<i>drosophila</i>)<br>
                                   number of slices&#58; 20<br>
                                   number of bins&#58; 17,787<br>
                                   number of genes&#58; 13,803<br>
@@ -152,7 +152,7 @@
                             <el-collapse-item   title="Summary" name="2">
                               <div class='tutorial'>
                                   <p>
-                                  sample&#58; L2 larva of <i>drosophila</i><br>
+                                  sample&#58; L2 larva of fruit fly (<i>drosophila</i>)<br>
                                   number of slices&#58; 19<br>
                                   number of bins&#58; 64,658<br>
                                   number of genes&#58; 14,270<br>
@@ -189,7 +189,7 @@
                             <el-collapse-item   title="Summary" name="2">
                               <div class='tutorial'>
                                   <p>
-                                  sample&#58; L3 larva of <i>drosophila</i><br>
+                                  sample&#58; L3 larva of fruit fly (<i>drosophila</i>)<br>
                                   number of slices&#58; 13<br>
                                   number of bins&#58; 43,310<br>
                                   number of genes&#58; 16,326<br>
@@ -236,7 +236,7 @@
                                 <el-collapse-item title="Summary" name="2">
                                   <div class='tutorial'> <!-- TODO: -->
                                       <p>
-                                      sample&#58; L1 larva of <i>drosophila</i><br>
+                                      sample&#58; L1 larva of fruit fly (<i>drosophila</i>)<br>
                                       number of slices&#58; *<br>
                                       number of bins&#58; 17,829<br>
                                       number of genes&#58; 2<br>
@@ -273,7 +273,7 @@
                                 <el-collapse-item   title="Summary" name="2">
                                   <div class='tutorial'>
                                       <p>
-                                      sample&#58; 14h-16h embryo of <i>neural cortex</i><br> <!-- TODO: -->
+                                      sample&#58; neural cortex of mouse<br> <!-- TODO: -->
                                       number of slices&#58; 1<br>
                                       number of cells&#58; 32,841<br>
                                       number of genes&#58; 28<br>
@@ -417,7 +417,7 @@
        <el-tab-pane label="Tutorials" name='tutorial'>
         <h2>Tutorials to reproduce those atlases&#58;</h2>
         <el-collapse v-model="tid" accordion>
-            <el-collapse-item   title="Developing drosophila embryos and larvae: E14-16h" name="1">
+            <el-collapse-item   title="Developing fruit fly embryos and larvae: E14-16h" name="1">
               <div class='tutorial'>
                   <p>
                   To reproduce this atlas&#58;<br>
@@ -438,7 +438,7 @@
                   </p>
               </div>
             </el-collapse-item>
-            <el-collapse-item   title="Developing drosophila embryos and larvae: E16-18h" name="2">
+            <el-collapse-item   title="Developing fruit fly embryos and larvae: E16-18h" name="2">
               <div class='tutorial'>
                   <p>
                   To reproduce this atlas&#58;<br>
@@ -459,7 +459,7 @@
                   </p>
               </div>
             </el-collapse-item>
-            <el-collapse-item   title="Developing drosophila embryos and larvae: L1" name="3">
+            <el-collapse-item   title="Developing fruit fly embryos and larvae: L1" name="3">
               <div class='tutorial'>
                   <p>
                   To reproduce this atlas&#58;<br>
@@ -480,7 +480,7 @@
                   </p>
               </div>
             </el-collapse-item>
-            <el-collapse-item   title="Developing drosophila embryos and larvae: L2" name="4">
+            <el-collapse-item   title="Developing fruit fly embryos and larvae: L2" name="4">
               <div class='tutorial'>
                   <p>
                   To reproduce this atlas&#58;<br>
@@ -501,7 +501,7 @@
                   </p>
               </div>
             </el-collapse-item>
-            <el-collapse-item   title="Developing drosophila embryos and larvae: L3" name="5">
+            <el-collapse-item   title="Developing fruit fly embryos and larvae: L3" name="5">
               <div class='tutorial'>
                   <p>
                   To reproduce this atlas&#58;<br>
@@ -577,7 +577,7 @@
            <el-col :span="8"><h4>reference</h4></el-col>
          </el-row>
          <el-row>
-           <el-col :span="2"><h5>Developing <i>drosophila</i> embryos and larvae atlas</h5></el-col>
+           <el-col :span="2"><h5>Developing fruit fly (<i>drosophila</i>) embryos and larvae atlas</h5></el-col>
            <el-col :span="2"><h5>Stereo-seq</h5></el-col>
            <el-col :span="12">
              <el-row>
@@ -688,7 +688,7 @@
            </el-col>
            <el-col :span="3">
                   <h5><a href="http://www.bgiocean.com/vt3d_example/download/starmap/cortex_starmap.atlas.json" target="_blank">cortex_starmap.atlas.json</a></h5>
-                  <h5><a href="http://www.bgiocean.com/vt3d_example/download/starmap/cortex_starmap.organ.json" target="_blank">fixed.json</a></h5>
+                  <h5><a href="http://www.bgiocean.com/vt3d_example/download/starmap/fixed.json" target="_blank">fixed.json</a></h5>
            </el-col>
            <el-col :span="8">
              <h5><a href="http://dx.doi.org/10.1126/science.aat5691" target="_blank">Wang, et al., Science, 2018 Three-dimensional intact-tissue sequencing of single-cell transcriptional states</a></h5>
