@@ -11,7 +11,7 @@
           <el-col :span="18"> 
             <el-row>
               <el-col :span="24"> 
-                <h2>Developing fruit fly (<i>drosophila</i>) embryos and larvae</h2>
+                <h2>Developing Fruit Fly (<i>drosophila</i>) Embryos and Larvae</h2>
               </el-col>
             </el-row>
             <el-row>
@@ -224,7 +224,7 @@
                        </el-row>
                        <el-row>
                           <el-col :span="12">
-                             <h3>E16-18h embryo (SVM)</h3>
+                             <h3>Continuous Model (SVM) of E16-18h Fruit Fly Embryo</h3>
                           </el-col>
                           <el-col :span="12">
                             <h3><a href="/vt3d_example/E16-18h_grids_t1/index.html?atlas=/vt3d_example/E16-18h_grids_t1" target="_blank"> Browse  </a></h3>
@@ -261,7 +261,7 @@
                        </el-row>
                        <el-row>
                           <el-col :span="12">
-                             <h3>Neural cortex (STARMap)</h3>
+                             <h3>Neural Cortex (STARMap) of Mouse Brain</h3>
                           </el-col>
                           <el-col :span="12">
                             <h3><a href="/vt3d_example/STARmap_3D/index.html?atlas=/vt3d_example/STARmap_3D" target="_blank"> Browse</a></h3>
@@ -298,10 +298,10 @@
                        </el-row>
                        <el-row>
                           <el-col :span="12">
-                             <h3>Hippocampal (Slide-seq)</h3>
+                             <h3>Hippocampal (Slide-seq) of Mouse Brain</h3>
                           </el-col>
                           <el-col :span="12">
-                            <h3><a href="" target="_blank"> Browse </a></h3> <!-- TODO: -->
+                            <h3><a href="/vt3d_example/SlideSeq/index.html?atlas=/vt3d_example/SlideSeq" target="_blank"> Browse</a></h3>
                           </el-col>
                        </el-row>
                        <el-row>
@@ -310,7 +310,11 @@
                                 <el-collapse-item   title="Summary" name="2">
                                   <div class='tutorial'> <!-- TODO: -->
                                       <p>
-                                      sample&#58; Hippocampal<br>
+                                      sample&#58; Hippocampal of mouse<br>
+                                      number of slices&#58; 7<br>
+                                      number of cells&#58; 10,908<br>
+                                      number of genes&#58; 9420<br>
+                                      number of models&#58; 0 </p>
                                       </p>
                                   </div>
                                 </el-collapse-item>
@@ -374,7 +378,7 @@
                 <el-col :span="24">
                    <el-row>
                       <el-col :span="24"> 
-                        <h2>Preoptic Hypothalamic</h2>
+                        <h2>Preoptic Hypothalamic of Mouse Brain</h2>
                       </el-col>
                    </el-row>
                   <div class='card'>
@@ -694,6 +698,23 @@
              <h5><a href="http://dx.doi.org/10.1126/science.aat5691" target="_blank">Wang, et al., Science, 2018 Three-dimensional intact-tissue sequencing of single-cell transcriptional states</a></h5>
            </el-col>
          </el-row>
+         <el-row>
+           <el-col :span="2"><h5>Mouse Hippocampal atlas</h5></el-col>
+           <el-col :span="2"><h5>SlideSeq</h5></el-col>
+           <el-col :span="6">
+                  <h5><a href="http://www.bgiocean.com/vt3d_example/download/slideseq/cortex_slideseq.h5ad" target="_blank">cortex_slideseq.h5ad</a></h5>
+           </el-col>
+           <el-col :span="3">
+                  <h5>no mesh</h5>
+           </el-col>
+           <el-col :span="3">
+                  <h5><a href="http://www.bgiocean.com/vt3d_example/download/slideseq/cortex_slideseq.atlas.json" target="_blank">cortex_slideseq.atlas.json</a></h5>
+                  <h5><a href="http://www.bgiocean.com/vt3d_example/download/slideseq/fixed.json" target="_blank">fixed.json</a></h5>
+           </el-col>
+           <el-col :span="8">
+             <h5><a href="https://www.science.org/doi/10.1126/science.aaw1219" target="_blank">Rodriques, et al., Science, 2019 Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution</a></h5>
+           </el-col>
+         </el-row>
          <br>
          <h3>Source codes&#58;</h3>
          <el-row>
@@ -776,7 +797,7 @@ export default {
          window.open('/vt3d_example/STARmap_3D/index.html?atlas=/vt3d_example/STARmap_3D','_blank');
       },
       jumpSlideSeq(){
-         console.log('Slide-Seq data is comming soon...');
+         window.open('/vt3d_example/SlideSeq/index.html?atlas=/vt3d_example/SlideSeq','_blank');
       },
       jumpFlysta(){
           window.open('/vt3d_example/E16-18h_grids_t1/index.html?atlas=/vt3d_example/E16-18h_grids_t1','_blank');
