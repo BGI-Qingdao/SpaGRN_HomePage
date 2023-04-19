@@ -1,6 +1,6 @@
-# VT3D Homepage
+# SpaGRN Homepage
 
-> The simple homepage of vt3d_examples
+> The simple homepage of SpaGRN 
 
 ## Environment
 
