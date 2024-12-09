@@ -3,7 +3,6 @@
     <header>
       <component  :G_Atlas='G_Atlas' v-bind:is="selected"></component>
     </header>
-    <!-- <footer><hr><p>Any page issue or bug resport, please contact: guolidong@genomics.cn; liyao1@genomics.cn; </p><p> Powered by Element.js framework and Echarts.js library.</p></footer> -->
   </div>
 </template>
 
